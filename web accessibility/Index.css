@@ -1,0 +1,38 @@
+body {
+background-color: rgba(79, 54, 90, 1);
+color: #fff; /* Set text color */
+margin: 0; /* Remove default margin */
+display: flex;
+flex-direction: column;
+min-height: 100vh; /* Ensure footer stays at the bottom */
+}
+
+header, main, footer {
+padding: 20px;
+}
+
+header {
+text-align: center;
+}
+
+main {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+section {
+background-color: rgba(0, 0, 0, 0.5);
+padding: 20px;
+flex: 1;
+}
+
+h2 {
+margin-top: 0;
+}
+
+footer {
+font-size: 20px;
+text-align: left;
+margin-top: auto; /* Push footer to the bottom */
+}
